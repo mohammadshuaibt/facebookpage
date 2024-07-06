@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+nav{
+    background: linear-gradient(#48649F,#3B5998);
+    color: white;
+    height: 70px;
+}
+
+.navbar{
+    display: flex;
+}
+
+.navbar h1{
+    font-size: 45px;
+    display: flex;
+    margin-left: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input[name=uname]{
+    margin-left: 1000px;
+    height: 20px;
+    width: 170px;
+    margin-top: 15px;
+    border: 2px solid black;
+}
+
+input[name=pass]{
+    margin-left: 20px;
+    height: 20px;
+    width: 170px;
+    margin-top: 15px;
+    border: 2px solid black;
+}
+/* checkbox for keep me logged in */
+input[name=loggg]{
+    margin-top: 38px;
+    margin-left: -365px;
+    
+}
+/* keep me logged in */
+.navbar #chck{
+    margin-top: 40px;
+    margin-left: 5px;
+    color: rgb(220, 220, 237);
+    font-size: 13px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* forgot password */
+.navbar a{
+    margin-top: 43px;
+    margin-left: 70px;
+    color: rgb(220, 220, 237);
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+}
+/* login btn */
+.navbar .login{
+    height: 25px;
+    width: 49px;
+    margin-left: 31px;
+    margin-top: 14.5px;
+    color: white;
+    background-color: #2d5bba;
+    border: 1px solid #224285;
+    border-radius: 2px;
+    font-weight: 600;
+    outline: none;
+    cursor: pointer;
+}
+
+.navbar .login:hover{
+background: #3B5998;
+}
+
+.container{
+    display: flex;
+    /* background: linear-gradient(#E7ECF2); */
+    
+}
+
+.container h2{
+    font-size: 30px;
+    color: rgb(6, 11, 151);
+    margin-top: 80px;
+    margin-left: 25px;
+
+}
+
+.container h1{
+    font-size: 45px;
+    margin-top: 20px;
+    margin-left: 30%;
+}
+
+.container .free{
+    margin-top: 85px;
+    margin-left: -165px;
+    font-size: 20px;
+}
+
+input[name=fname]{
+    height: 40px;
+    width: 200px;
+    padding-left: 18px;
+    margin-top: 140px;
+    margin-left: -230px;
+    border-style: groove;
+    border-radius: 9px;
+    border-color: white;
+    
+}
+
+input[name=lname]{
+    height: 40px;
+    width: 200px;
+    padding-left: 18px;
+    margin-top: 140px;
+    margin-left: 20px;
+    border-style: groove;
+    border-radius: 9px;
+    border-color: white;
+
+}
+
+input[name=email]{
+    height: 40px;
+    width: 200px;
+    padding-left: 20px;
+    padding-right: 240px;
+    margin-top: 200px;
+    margin-left: -462px;
+    border-style: groove;
+    border-radius: 9px;
+    border-color: white;
+    
+}
+
+input[name=cemail]{
+    height: 40px;
+    width: 200px;
+    padding-left: 20px;
+    padding-right: 240px;
+    margin-top: 260px;
+    margin-left: -462px;
+    border-style: groove;
+    border-radius: 9px;
+    border-color: white;
+    text-align: left;
+}
+
+input[name=cpass]{
+    height: 40px;
+    width: 200px;
+    padding-left: 20px;
+    padding-right: 240px;
+    margin-top: 320px;
+    margin-left: -462px;
+    border-style: groove;
+    border-radius: 9px;
+    border-color: white;
+}
+
+.container label{
+    margin-top: 380px;
+    margin-left: -470px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+input[name=dob]{
+    height: 35px;
+    width: 250px;
+    margin-top: 415px;
+    margin-left: -75px;
+}
+
+.container .ydob{
+    margin-top: 415px;
+    margin-left: 15px;
+    font-size: 16px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 10px;
+}
+
+input[type=radio]{
+    margin-top: 18.5%;
+    margin-left: -15.5%;
+    
+}
+
+.container .mrad,.frad{
+    margin-top: 480px;
+    margin-left: 15px;
+}
+
+.container .context{
+    margin-top: 530px;
+    margin-left: -80px;
+    color: rgb(55, 55, 54);
+    font-size: 15px;
+}
+
+.container .signup{
+    height: 45px;
+    width: 250px;
+    margin-top: 620px;
+    margin-left: -410px;
+    color: white;
+    font-weight: 200px;
+    font-size: 27px;
+    background-color: #5EA841;
+    border-radius: 8px;
+    border-color: none;
+    
+}
+
+.container img{
+    width: 500px;
+    height: 400px;
+    margin-top: 220px;
+    margin-left: -460px;
+    
+}
